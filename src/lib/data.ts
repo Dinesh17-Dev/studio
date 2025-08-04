@@ -80,11 +80,11 @@ export function generateInitialData(): InitialData {
       { campaign: "Influencer", conversions: random(150, 400) },
     ],
     trafficData: [
-      { source: "Organic", visitors: random(2000, 3000), fill: "var(--color-organic)" },
-      { source: "Social", visitors: random(1500, 2500), fill: "var(--color-social)" },
-      { source: "Paid", visitors: random(1000, 2000), fill: "var(--color-paid)" },
-      { source: "Direct", visitors: random(800, 1500), fill: "var(--color-direct)" },
-      { source: "Referral", visitors: random(300, 800), fill: "var(--color-referral)" },
+      { source: "Organic", visitors: random(2000, 3000), fill: "hsl(var(--chart-1))" },
+      { source: "Social", visitors: random(1500, 2500), fill: "hsl(var(--chart-2))" },
+      { source: "Paid", visitors: random(1000, 2000), fill: "hsl(var(--chart-3))" },
+      { source: "Direct", visitors: random(800, 1500), fill: "hsl(var(--chart-4))" },
+      { source: "Referral", visitors: random(300, 800), fill: "hsl(var(--chart-5))" },
     ],
     campaignsData: initialCampaigns,
   };
